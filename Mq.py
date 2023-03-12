@@ -6,7 +6,7 @@ async def main():
     await call_py.start()
     print("""    ------------------
    | سورس الغفور شغال الان ! |
-    ------------------"""    )
+    -----------------"""    )
     await idle()
     await arq.close()
 loop = asyncio.get_event_loop()
